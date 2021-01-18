@@ -1,3 +1,5 @@
+# 바이러스
+
 # 컴퓨터 수
 com_count = int(input())
 # 네트워크망 수
@@ -20,7 +22,7 @@ for i in range(network_count):
     graph[x].append(y)
     graph[y].append(x)
 
-def dfs(graph,v,visited):
+def dfs(graph,v,visited): 
     visited[v]=True
     for i in graph[v]:
         if not visited[i]:
