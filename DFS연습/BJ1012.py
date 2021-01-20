@@ -1,5 +1,8 @@
 # 유기농 배추
 
+import sys
+sys.setrecursionlimit(10**8)
+
 test = int(input()) # 테스트 횟수
 
 dx = [-1,1,0,0]
