@@ -23,8 +23,8 @@ def bfs(x,y):
             ny = y + dy[i]
             if nx < 0 or ny < 0 or nx >= N  or ny >=M:
                 continue
-            if arr[nx][ny] == 0:
-                continue
+            # if arr[nx][ny] == 0:
+            #     continue
             if arr[nx][ny] == 1:
                 arr[nx][ny] = arr[x][y] + 1
                 queue.append((nx,ny))
